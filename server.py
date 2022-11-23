@@ -12,8 +12,6 @@ parser.add_argument("--host", nargs='*',
 
 args = parser.parse_args()
 
-companies = [{"id": 1, "name": "Company One"}, {"id": 2, "name": "Company Two"}]
-
 api = Flask(__name__)
 
 # GET /companies
